@@ -1,6 +1,7 @@
 # capacitor-crypto-aes-gcm
 
 Encrypt & Decrypt using AES-GCM 256 on iOS using CryptoKit
+*9/1/2024 Addeed support for Capacitor 6*
 
 ## Install
 
