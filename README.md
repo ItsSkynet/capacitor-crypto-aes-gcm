@@ -18,7 +18,7 @@ npx cap sync
 * [`encrypt(...)`](#encrypt)
 * [`decrypt(...)`](#decrypt)
 * [`generateSymmetricKey()`](#generatesymmetrickey)
-* [`generateIV()`](#generateiv)
+* [`generateIV() - Not present in iOS`](#generateiv)
 
 </docgen-index>
 
@@ -71,6 +71,8 @@ generateSymmetricKey() => any
 ```typescript
 generateIV() => any
 ```
+
+*This function is not available in iOS, as original author did not include a function for this*
 
 **Returns:** <code>any</code>
 
